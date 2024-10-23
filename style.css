@@ -181,6 +181,19 @@ button:hover {
     background-color: #1A64B9;
 }
 
+footer {
+    background-color: #2374a4;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
 @media (max-width: 1200px) {
     .left-top-bar-menu {
         margin-left: 0;
