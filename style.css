@@ -8,9 +8,13 @@ body {
     font-family: Arial, sans-serif;
     background-color: #ffffff;
     box-sizing: border-box;
+    height: 100%;
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
@@ -19,6 +23,7 @@ body {
 
 header {
     background-color: #2374a4;
+    text-align: center;
 }
 
 .top-bar {
@@ -119,6 +124,7 @@ nav a:hover {
 }
 
 main {
+    flex: 1;
     padding: 20px;
 }
 
@@ -182,41 +188,83 @@ button:hover {
 }
 
 footer {
-    background-color: #2374a4;
-    color: white;
     text-align: center;
-    padding: 15px 0;
-    font-size: 14px;
-    margin-top: 20px;
+    background-color: #ecf4fe;
+    padding: 10px;
 }
 
-footer p {
-    margin: 0;
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    color: #888888;
+}
+
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-content p, .footer-links a {
+    color: #888888;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
     .left-top-bar-menu {
         margin-left: 0;
+        justify-content: center;
     }
 
     .right-top-bar-menu {
         margin-right: 0;
+        justify-content: center;
     }
 
     .header-content {
         flex-wrap: wrap;
+        padding: 10px;
     }
 
     .logo img {
         margin-left: 0;
+        width: 150px;
     }
 
     .user-panel {
         margin-right: 0;
+        flex-wrap: wrap;
     }
 
     .items-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .search-bar input {
+        width: 100%; 
+        margin-bottom: 10px; 
+    }
+
+    .top-bar, .header-content, .footer-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 12px; 
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 10px; 
     }
 }
 
