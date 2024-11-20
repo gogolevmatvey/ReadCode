@@ -21,6 +21,8 @@ body {
     padding: 0 15px;
 }
 
+/* Хедер начало */
+
 header {
     background-color: #2374a4;
     text-align: center;
@@ -122,6 +124,8 @@ nav a:hover {
     top: -12px;
     right: -18px
 }
+
+/* Хедер конец */
 
 main {
     flex: 1;
