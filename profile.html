@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Личный кабинет</title>
+    <link rel="stylesheet" href="profile-style.css">
+</head>
+<body>
+    <div class="container1">
+        <header>
+            <div class="top-bar">
+                <div class="left-top-bar-menu">
+                    <a href="/">Страна, город</a>
+                    <a href="/">Доставка и оплата</a>
+                    <a href="/">Бонусная программа</a>
+                </div>
+                <div class="right-top-bar-menu">
+                    <a href="/">Вакансии</a>
+                    <a href="tel:89204448444">8 (920) 444-8-444</a>
+                    <a href="/">Обратная связь</a>
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav> 
+                    <a href="catalog.html" class="catalog-btn">Каталог</a>
+                </nav>
+                <div class="search-bar">
+                    <input type="text" placeholder="Найти...">
+                </div>
+                <div class="user-panel">
+                    <div class="icons">
+                        <a href="profile.html" class="active">Пользователь</a>
+                        <a href="orders.html">Заказы</a>
+                        <a href="/">Закладки <span class="notification">2</span></a>
+                        <a href="/">Корзина <span class="notification">1</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container2">
+            <main class="profile-content">
+                <div class="profile-sidebar">
+                    <div class="user-info">
+                        <img src="avatar-placeholder.png" alt="Аватар" class="avatar">
+                        <h2>Имя Пользователя</h2>
+                        <p>user@email.com</p>
+                    </div>
+                    <nav class="profile-nav">
+                        <a href="profile.html" class="active">Профиль</a>
+                        <a href="orders.html">История заказов</a>
+                        <a href="#">Избранное</a>
+                        <a href="#">Настройки</a>
+                        <a href="#">Выйти</a>
+                    </nav>
+                </div>
+
+                <div class="profile-main">
+                    <h1>Личные данные</h1>
+                    <form class="profile-form">
+                        <div class="form-group">
+                            <label for="name">Имя</label>
+                            <input type="text" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Фамилия</label>
+                            <input type="text" id="surname" name="surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <button type="submit" class="save-btn">Сохранить изменения</button>
+                    </form>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>© 2024 Gogolev Software. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="sale-rules.html">Правила продажи</a>
+                    <a href="privacy-policies.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
