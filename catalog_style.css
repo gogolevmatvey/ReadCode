@@ -88,6 +88,7 @@ nav a {
 
 nav a:hover {
     background-color: #0C3E78;
+    cursor: pointer;
 }
 
 .search-bar input {
@@ -161,6 +162,7 @@ nav a:hover {
     border-radius: 8px;
     border: 1px solid #e0e0e0;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .price-range {
@@ -202,6 +204,7 @@ nav a:hover {
 
 .item:hover {
     transform: translateY(-5px);
+    cursor: pointer;
 }
 
 .item img {
@@ -243,6 +246,7 @@ nav a:hover {
 
 .pagination a:hover {
     background-color: #ddd;
+    cursor: pointer;
 }
 
 footer {
