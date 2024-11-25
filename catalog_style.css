@@ -257,6 +257,7 @@ footer {
     text-align: center;
     background-color: #ecf4fe;
     padding: 10px;
+    margin-top: auto;
 }
 
 .footer-content {
@@ -267,7 +268,6 @@ footer {
     font-size: 14px;
     color: #888888;
 }
-
 
 .footer-links {
     display: flex;
