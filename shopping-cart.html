@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+    <link rel="stylesheet" href="shopping-cart-style.css">
+</head>
+<body>
+    <div class="container1">
+        <header>
+            <div class="top-bar">
+                <div class="left-top-bar-menu">
+                    <a href="index.html">Страна, город</a>
+                    <a href="delivery-payment.html">Доставка и оплата</a>
+                    <a href="bonus-program.html">Бонусная программа</a>
+                </div>
+                <div class="right-top-bar-menu">
+                    <a href="vacancies.html">Вакансии</a>
+                    <a href="tel:89204448444">8 (920) 444-8-444</a>
+                    <a href="feedback.html">Обратная связь</a>
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav> 
+                    <a href="catalog.html" class="catalog-btn">Каталог</a>
+                </nav>
+                <div class="search-bar">
+                    <input type="text" placeholder="Найти...">
+                </div>
+                <div class="user-panel">
+                    <div class="icons">
+                        <a href="profile.html">Пользователь</a>
+                        <a href="orders.html">Заказы</a>
+                        <a href="bookmarks.html">Закладки <span class="notification">2</span></a>
+                        <a href="shopping-cart.html" class="active">Корзина <span class="notification">1</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container2">
+            <main class="cart-content">
+                <h1>Корзина</h1>
+
+                <div class="cart-layout">
+                    <div class="cart-items">
+                        <div class="cart-item">
+                            <img src="book-images/book1.jpg" alt="Книга">
+                            <div class="item-details">
+                                <h3>JavaScript: Полное руководство</h3>
+                                <p class="author">Дэвид Флэнаган</p>
+                                <div class="item-price">1200 ₽</div>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" value="1" min="1" max="99">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="remove-btn">✕</button>
+                        </div>
+
+                        <div class="cart-item">
+                            <img src="book-images/book2.jpg" alt="Книга">
+                            <div class="item-details">
+                                <h3>Python для анализа данных</h3>
+                                <p class="author">Уэс МакКинни</p>
+                                <div class="item-price">1500 ₽</div>
+                            </div>
+                            <div class="quantity-controls">
+                                <button class="quantity-btn minus">-</button>
+                                <input type="number" value="1" min="1" max="99">
+                                <button class="quantity-btn plus">+</button>
+                            </div>
+                            <button class="remove-btn">✕</button>
+                        </div>
+                    </div>
+
+                    <div class="cart-summary">
+                        <h2>Итого</h2>
+                        <div class="summary-item">
+                            <span>Товары (2)</span>
+                            <span>2700 ₽</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Скидка</span>
+                            <span class="discount">-200 ₽</span>
+                        </div>
+                        <div class="summary-item">
+                            <span>Доставка</span>
+                            <span>300 ₽</span>
+                        </div>
+                        <div class="summary-total">
+                            <span>К оплате</span>
+                            <span>2800 ₽</span>
+                        </div>
+
+                        <div class="bonus-info">
+                            <p>Вы получите 280 бонусов за этот заказ</p>
+                        </div>
+
+                        <button class="checkout-btn">Оформить заказ</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>© 2024 Gogolev Software. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="sale-rules.html">Правила продажи</a>
+                    <a href="privacy-policies.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Личный кабинет</title>
-    <link rel="stylesheet" href="profile-style.css">
+    <title>Закладки</title>
+    <link rel="stylesheet" href="bookmarks-style.css">
 </head>
 <body>
     <div class="container1">
@@ -35,9 +35,9 @@
                 </div>
                 <div class="user-panel">
                     <div class="icons">
-                        <a href="profile.html" class="active">Пользователь</a>
+                        <a href="profile.html">Пользователь</a>
                         <a href="orders.html">Заказы</a>
-                        <a href="bookmarks.html">Закладки <span class="notification">2</span></a>
+                        <a href="bookmarks.html" class="active">Закладки <span class="notification">2</span></a>
                         <a href="shopping-cart.html">Корзина <span class="notification">1</span></a>
                     </div>
                 </div>
@@ -53,35 +53,43 @@
                         <p>user@email.com</p>
                     </div>
                     <nav class="profile-nav">
-                        <a href="profile.html" class="active">Профиль</a>
+                        <a href="profile.html">Профиль</a>
                         <a href="orders.html">История заказов</a>
-                        <a href="bookmarks.html">Избранное</a>
+                        <a href="bookmarks.html" class="active">Избранное</a>
                         <a href="settings.html">Настройки</a>
                         <a href="#">Выйти</a>
                     </nav>
                 </div>
 
                 <div class="profile-main">
-                    <h1>Личные данные</h1>
-                    <form class="profile-form">
-                        <div class="form-group">
-                            <label for="name">Имя</label>
-                            <input type="text" id="name" name="name">
+                    <h1>Закладки</h1>
+                    <div class="bookmarks-list">
+                        <div class="bookmark-item">
+                            <img src="book-images/book1.jpg" alt="Книга">
+                            <div class="bookmark-details">
+                                <h3>JavaScript: Полное руководство</h3>
+                                <p>Автор: Дэвид Флэнаган</p>
+                                <div class="book-price">1200 ₽</div>
+                                <div class="bookmark-actions">
+                                    <button class="add-to-cart">В корзину</button>
+                                    <button class="remove-bookmark">Удалить</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="surname">Фамилия</label>
-                            <input type="text" id="surname" name="surname">
+
+                        <div class="bookmark-item">
+                            <img src="book-images/book2.jpg" alt="Книга">
+                            <div class="bookmark-details">
+                                <h3>Python для анализа данных</h3>
+                                <p>Автор: Уэс МакКинни</p>
+                                <div class="book-price">1500 ₽</div>
+                                <div class="bookmark-actions">
+                                    <button class="add-to-cart">В корзину</button>
+                                    <button class="remove-bookmark">Удалить</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Телефон</label>
-                            <input type="tel" id="phone" name="phone">
-                        </div>
-                        <button type="submit" class="save-btn">Сохранить изменения</button>
-                    </form>
+                    </div>
                 </div>
             </main>
         </div>

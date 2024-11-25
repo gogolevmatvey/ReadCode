@@ -51,7 +51,6 @@ header {
     font-size: 14px;
 }
 
-
 .right-top-bar-menu {
     display: flex;
     margin-right: 300px;
@@ -63,7 +62,6 @@ header {
     color: white;
     text-decoration: none;
 }
-
 
 .header-content {
     display: flex;
@@ -149,8 +147,15 @@ main {
 .item {
     background-color: white;
     border: 1px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     padding: 15px;
     text-align: left;
+    transition: transform 0.2s ease;
+}
+
+.item:hover {
+    transform: translateY(-5px); 
 }
 
 .item img {

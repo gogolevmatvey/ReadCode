@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Настройки</title>
+    <link rel="stylesheet" href="settings-style.css">
+</head>
+<body>
+    <div class="container1">
+        <header>
+            <div class="top-bar">
+                <div class="left-top-bar-menu">
+                    <a href="index.html">Страна, город</a>
+                    <a href="delivery-payment.html">Доставка и оплата</a>
+                    <a href="bonus-program.html">Бонусная программа</a>
+                </div>
+                <div class="right-top-bar-menu">
+                    <a href="vacancies.html">Вакансии</a>
+                    <a href="tel:89204448444">8 (920) 444-8-444</a>
+                    <a href="feedback.html">Обратная связь</a>
+                </div>
+            </div>
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="logo.png" alt="Логотип">
+                    </a>
+                </div>
+                <nav> 
+                    <a href="catalog.html" class="catalog-btn">Каталог</a>
+                </nav>
+                <div class="search-bar">
+                    <input type="text" placeholder="Найти...">
+                </div>
+                <div class="user-panel">
+                    <div class="icons">
+                        <a href="profile.html">Пользователь</a>
+                        <a href="orders.html">Заказы</a>
+                        <a href="bookmarks.html">Закладки <span class="notification">2</span></a>
+                        <a href="shopping-cart.html">Корзина <span class="notification">1</span></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container2">
+            <main class="profile-content">
+                <div class="profile-sidebar">
+                    <div class="user-info">
+                        <img src="avatar-placeholder.png" alt="Аватар" class="avatar">
+                        <h2>Имя Пользователя</h2>
+                        <p>user@email.com</p>
+                    </div>
+                    <nav class="profile-nav">
+                        <a href="profile.html">Профиль</a>
+                        <a href="orders.html">История заказов</a>
+                        <a href="bookmarks.html">Избранное</a>
+                        <a href="settings.html" class="active">Настройки</a>
+                        <a href="#">Выйти</a>
+                    </nav>
+                </div>
+
+                <div class="profile-main">
+                    <h1>Настройки</h1>
+                    <div class="settings-sections">
+                        <section class="settings-section">
+                            <h2>Уведомления</h2>
+                            <div class="settings-options">
+                                <div class="setting-item">
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider"></span>
+                                    </label>
+                                    <span>Email-уведомления о заказах</span>
+                                </div>
+                                <div class="setting-item">
+                                    <label class="switch">
+                                        <input type="checkbox" checked>
+                                        <span class="slider"></span>
+                                    </label>
+                                    <span>SMS-уведомления о заказах</span>
+                                </div>
+                                <div class="setting-item">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider"></span>
+                                    </label>
+                                    <span>Новости и акции</span>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="settings-section">
+                            <h2>Безопасность</h2>
+                            <div class="settings-form">
+                                <div class="form-group">
+                                    <label for="current-password">Текущий пароль</label>
+                                    <input type="password" id="current-password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="new-password">Новый пароль</label>
+                                    <input type="password" id="new-password">
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirm-password">Подтвердите пароль</label>
+                                    <input type="password" id="confirm-password">
+                                </div>
+                                <button class="save-btn">Изменить пароль</button>
+                            </div>
+                        </section>
+
+                        <section class="settings-section">
+                            <h2>Адреса доставки</h2>
+                            <div class="address-list">
+                                <div class="address-item">
+                                    <div class="address-details">
+                                        <h4>Основной адрес</h4>
+                                        <p>ул. Примерная, д. 1, кв. 1</p>
+                                        <p>Москва, 123456</p>
+                                    </div>
+                                    <div class="address-actions">
+                                        <button class="edit-btn">Изменить</button>
+                                        <button class="delete-btn">Удалить</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="add-address-btn">+ Добавить адрес</button>
+                        </section>
+                    </div>
+                </div>
+            </main>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <p>© 2024 Gogolev Software. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="sale-rules.html">Правила продажи</a>
+                    <a href="privacy-policies.html">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
