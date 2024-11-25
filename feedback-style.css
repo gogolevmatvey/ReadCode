@@ -287,3 +287,32 @@ nav a:hover {
 .faq-item p {
     color: #666;
 }
+
+footer {
+    text-align: center;
+    background-color: #ecf4fe;
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 14px;
+    color: #888888;
+}
+
+.footer-links {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-content p, .footer-links a {
+    color: #888888;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
