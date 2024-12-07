@@ -46,11 +46,6 @@ header {
     font-size: 14px;
 }
 
-.left-top-bar-menu a.active {
-    font-weight: bold;
-    text-decoration: underline;
-}
-
 .right-top-bar-menu {
     display: flex;
     margin-right: 300px;

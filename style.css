@@ -231,6 +231,103 @@ button:hover {
     background-color: #1A64B9;
 }
 
+.categories {
+    margin-top: 60px;
+    padding: 40px 0;
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+}
+
+.categories-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 300px;
+    gap: 20px;
+}
+
+.category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.2s ease;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: 140px;
+    width: 140px;
+    justify-content: center;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+    background-color: #ecf4fe;
+}
+
+.category-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.category-card h3 {
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+}
+
+.special-offers {
+    margin: 60px 300px;
+}
+
+.special-offers h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.offers-slider {
+    width: 100%;
+}
+
+.offer-card {
+    display: flex;
+    align-items: center;
+    background-color: #ecf4fe;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.offer-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 40px;
+}
+
+.offer-content {
+    flex: 1;
+}
+
+.offer-content h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #1A64B9;
+}
+
+.offer-content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
 footer {
     text-align: center;
     background-color: #ecf4fe;
@@ -247,7 +344,6 @@ footer {
     color: #888888;
 }
 
-
 .footer-links {
     display: flex;
     gap: 15px;
@@ -257,9 +353,11 @@ footer {
     color: #888888;
     text-decoration: none;
 }
+
 footer a:hover {
     text-decoration: underline;
 }
+
 
 @media (max-width: 1200px) {
     .left-top-bar-menu {
