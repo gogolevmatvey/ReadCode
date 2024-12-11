@@ -49,6 +49,11 @@ header {
     font-size: 14px;
 }
 
+.left-top-bar-menu a:hover,
+.right-top-bar-menu a:hover {
+    text-decoration: underline; 
+}
+
 .right-top-bar-menu {
     display: flex;
     margin-right: 300px;
